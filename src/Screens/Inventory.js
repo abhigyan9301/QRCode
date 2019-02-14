@@ -7,7 +7,7 @@ import Share from 'react-native-share'
 import QRCode from 'react-native-qrcode-svg';
 //import QRCode
 
-class App extends Component {
+class Inventory extends Component {
     svg;
   constructor() {
     super();
@@ -84,7 +84,7 @@ class App extends Component {
     );
   }
 }
-export default App;
+export default Inventory;
 const styles = StyleSheet.create({
   MainContainer: {
     flex: 1,
